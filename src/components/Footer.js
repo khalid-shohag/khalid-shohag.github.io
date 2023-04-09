@@ -1,7 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import {FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -30,6 +30,8 @@ const Footer = () => {
           <FaTwitter size={30} style={ {color: "#fff", 
             marginRight: "2rem"} } />
           <FaLinkedin size={30} style={ {color: "#fff", 
+            marginRight: "2rem"} } />
+          <FaGithub size={30} style={ {color: "#fff", 
             marginRight: "2rem"} } />
           </div>
           
