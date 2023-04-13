@@ -5,6 +5,7 @@ import React from 'react'
 
 import Hadoop from '../assets/apache-hadoop-picture.png'
 import Flutter from '../assets/flutter.png'
+import Resume from '../assets/khalid_hasan_resume.pdf'
 
 const AboutContent = () => {
   return (
@@ -13,8 +14,8 @@ const AboutContent = () => {
         <h1>Who Am I?</h1>
         <p>I am a CSE 4th year student.
              Currently, I am learning Big data analytics.</p>
-        <Link to="/contact">
-            <button className="btn">Contact</button>
+        <Link to={Resume} target="_blank" download>
+            <button className="btn">Resume</button>
         </Link>
       </div>
       <div className="right">

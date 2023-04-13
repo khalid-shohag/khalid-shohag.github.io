@@ -3,7 +3,8 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import React from 'react'
 import { useState } from "react"
 import { Link } from 'react-router-dom'
-
+import Profile from '../assets/profile-two.jpg'
+import Avatar from 'react-avatar-edit'
 
 
 const Navbar = () => {
@@ -25,8 +26,19 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to = "/"><h1>Khalid-Shohag</h1></Link>
       
+      <Link to = "/">
+      
+      <img className="avatar"
+        alt="Profile"
+        src={Profile}
+        
+      />
+        
+        <h1>Khalid-Shohag</h1>
+        
+        </Link>
+     
       
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
