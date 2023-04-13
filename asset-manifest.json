@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df8cc2b3.css",
+    "main.js": "/static/js/main.336b1e6f.js",
+    "static/media/bid-data-all.png": "/static/media/bid-data-all.c7e6dc1742c0eacf90f0.png",
+    "static/media/pattern.jpg": "/static/media/pattern.1bf00bb9cd731d4c9e52.jpg",
+    "static/media/khalid_hasan_resume.pdf": "/static/media/khalid_hasan_resume.b1277b2c90bcbc0d575c.pdf",
+    "static/media/profile-two.jpg": "/static/media/profile-two.b5856e39fc1bdd748814.jpg",
+    "static/media/abohaoya.jpg": "/static/media/abohaoya.11cf103df1cf266c1164.jpg",
+    "static/media/ponjika.jpg": "/static/media/ponjika.a5c19bd9ba7c0d086a46.jpg",
+    "static/media/flutter.png": "/static/media/flutter.0839d9c3db93677b394a.png",
+    "static/media/apache-hadoop-picture.png": "/static/media/apache-hadoop-picture.673146b8b1d690e33d5e.png",
+    "index.html": "/index.html",
+    "main.df8cc2b3.css.map": "/static/css/main.df8cc2b3.css.map",
+    "main.336b1e6f.js.map": "/static/js/main.336b1e6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df8cc2b3.css",
+    "static/js/main.336b1e6f.js"
+  ]
+}
